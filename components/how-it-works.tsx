@@ -23,7 +23,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="py-32 px-6 relative">
+    <section className="py-20 md:py-32 px-6 relative">
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -33,7 +33,7 @@ export default function HowItWorks() {
       />
 
       <div className="max-w-4xl mx-auto relative z-10">
-        <div className="text-center mb-20">
+        <div className="text-center mb-14 md:mb-20">
           <p className="section-label mb-4">How It Works</p>
           <div className="divider-gold mb-6" />
           <h2 className="text-5xl md:text-6xl font-light leading-tight">

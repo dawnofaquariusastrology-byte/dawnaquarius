@@ -29,9 +29,9 @@ const layers = [
 
 export default function ThreeLayers() {
   return (
-    <section id="discover" className="py-32 px-6 relative">
+    <section id="discover" className="py-20 md:py-32 px-6 relative">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center mb-14 md:mb-20">
           <p className="section-label mb-4">The Platform</p>
           <div className="divider-gold mb-6" />
           <h2 className="text-5xl md:text-6xl font-light leading-tight">

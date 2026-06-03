@@ -59,7 +59,7 @@ const tiers = [
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="py-32 px-6 relative overflow-hidden">
+    <section id="pricing" className="py-20 md:py-32 px-6 relative overflow-hidden">
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
@@ -69,7 +69,7 @@ export default function Pricing() {
       />
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <div className="text-center mb-20">
+        <div className="text-center mb-14 md:mb-20">
           <p className="section-label mb-4">Pricing</p>
           <div className="divider-gold mb-6" />
           <h2 className="text-5xl md:text-6xl font-light leading-tight">

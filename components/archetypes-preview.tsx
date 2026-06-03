@@ -54,7 +54,7 @@ const descriptions: Record<string, string> = {
 
 export default function ArchetypesPreview() {
   return (
-    <section id="paths" className="py-32 px-6 relative overflow-hidden">
+    <section id="paths" className="py-20 md:py-32 px-6 relative overflow-hidden">
       {/* Background */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -65,7 +65,7 @@ export default function ArchetypesPreview() {
       />
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-20">
+        <div className="text-center mb-14 md:mb-20">
           <p className="section-label mb-4">The Celestial Paths</p>
           <div className="divider-gold mb-6" />
           <h2 className="text-5xl md:text-6xl font-light leading-tight">

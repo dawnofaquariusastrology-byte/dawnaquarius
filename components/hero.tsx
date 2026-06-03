@@ -2,7 +2,7 @@ import { ArrowRight, Star } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden stars-bg">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden stars-bg py-28 md:py-0">
       {/* Background orbs */}
       <div className="orb w-[600px] h-[600px] bg-violet top-[-100px] left-[-200px] pulse-glow" />
       <div className="orb w-[400px] h-[400px] bg-gold top-[20%] right-[-100px]" style={{ animationDelay: "2s", opacity: 0.15 }} />
@@ -25,17 +25,17 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 mb-8">
-          <Star size={12} className="text-gold fill-gold" />
-          <span className="section-label" style={{ fontSize: "0.65rem" }}>
+        <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 mb-8 max-w-[90vw]">
+          <Star size={12} className="text-gold fill-gold flex-shrink-0" />
+          <span className="section-label leading-tight" style={{ fontSize: "0.65rem" }}>
             The Career Ecosystem for the Aquarian Age
           </span>
-          <Star size={12} className="text-gold fill-gold" />
+          <Star size={12} className="text-gold fill-gold flex-shrink-0" />
         </div>
 
         {/* Headline */}
         <h1
-          className="text-6xl md:text-8xl font-light leading-none mb-6 tracking-tight"
+          className="text-5xl sm:text-6xl md:text-8xl font-light leading-[1.05] md:leading-none mb-6 tracking-tight"
           style={{ fontFamily: "var(--font-cormorant), serif" }}
         >
           Find the path
@@ -73,7 +73,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
+      <div className="hidden md:flex absolute bottom-10 left-1/2 -translate-x-1/2 flex-col items-center gap-2 opacity-40">
         <span className="text-xs text-slate-soft tracking-widest uppercase">Scroll</span>
         <div className="w-px h-8 bg-gradient-to-b from-slate-soft to-transparent" />
       </div>

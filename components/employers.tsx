@@ -10,7 +10,7 @@ const benefits = [
 
 export default function Employers() {
   return (
-    <section id="employers" className="py-32 px-6 relative overflow-hidden">
+    <section id="employers" className="py-20 md:py-32 px-6 relative overflow-hidden">
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
